@@ -1,0 +1,159 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/john.png"
+      },
+      "image": "src/assets/sunset.jpg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "emma_rose",
+        "profile_pic": "src/assets/emma.png"
+      },
+      "image": "src/assets/coffee.jpg",
+      "caption": "Coffee and chill ☕ #MorningVibes",
+      "likes": 98,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Need one of these right now!"
+        }
+      ],
+      "timestamp": "2025-02-12T09:10:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mike_travels",
+        "profile_pic": "src/assets/mike.png"
+      },
+      "image": "src/assets/mountain.jpg",
+      "caption": "Top of the world 🏔️ #AdventureTime",
+      "likes": 230,
+      "comments": [
+        {
+          "user": "emma_rose",
+          "comment": "That view is incredible 😍"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Hiking goals!"
+        }
+      ],
+      "timestamp": "2025-02-13T17:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "Welcome",
+    "profile_pic": "src/assets/john.png"
+  },
+  "suggestions": [
+    {
+      "id": "102",
+      "username": "john_doe",
+      "profile_pic": "src/assets/john.png"
+    },
+    {
+      "id": "103",
+      "username": "emma_rose",
+      "profile_pic": "src/assets/emma.png"
+    },
+    {
+      "id": "104",
+      "username": "maren_travel",
+      "profile_pic": "src/assets/mike.png"
+    },
+    {
+      "id": "105",
+      "username": "king_travel",
+      "profile_pic": "src/assets/mike.png"
+    },
+    {
+      "id": "106",
+      "username": "rafel_travel",
+      "profile_pic": "src/assets/mike.png"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/john.png"
+      },
+      "image": "/src/assets/paris.jpeg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "emma_rose",
+        "profile_pic": "src/assets/emma.png"
+      },
+      "image": "/src/assets/bridge.jpeg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mike_travels",
+        "profile_pic": "src/assets/mike.png"
+      },
+      "image": "/src/assets/building.jpeg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/john.png"
+    },
+    {
+      "id": "102",
+      "username": "john_doe"
+    },
+    {
+      "id": "102",
+      "username": "john_doe"
+    },
+    {
+      "id": "5bbc"
+    },
+    {
+      "id": "367d"
+    },
+    {
+      "id": "204b"
+    },
+    {
+      "id": "105",
+      "username": "dinesh"
+    },
+    {
+      "id": "107",
+      "username": "json"
+    }
+  ]
+}
